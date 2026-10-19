@@ -1,0 +1,53 @@
+{
+  "id": "credential-tools",
+  "name": "Credential Tools",
+  "version": "1.0.0",
+  "description": "Generate SSH keys, check them and copy a public key to a host.",
+  "author": {
+    "name": "Termix"
+  },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/Termix-SSH/Plugin-Credential-Tools",
+  "docs": "https://docs.termix.site/plugins/credential-tools",
+  "category": "Access & Security",
+  "icon": "KeyRound",
+  "features": [
+    "Generate Ed25519, RSA and ECDSA key pairs",
+    "Detect a key's type and get the public key from a private key",
+    "Check that a public and private key match",
+    "Copy a saved public key to a host's authorized keys"
+  ],
+  "env": [],
+  "engine": {
+    "termix": ">=26.10.3",
+    "api": "^1.5"
+  },
+  "capabilities": [
+    "network:serve",
+    "hosts:read",
+    "credentials:use",
+    "credentials:read",
+    "ssh:connect",
+    "ui:surface"
+  ],
+  "locales": "locales",
+  "platforms": ["linux", "win32", "darwin"],
+  "contributes": {
+    "permissions": [
+      {
+        "name": "use",
+        "titleKey": "permissions.use.title",
+        "descriptionKey": "permissions.use.description",
+        "defaultRoles": ["user"]
+      }
+    ],
+    "http": {
+      "legacyRedirects": [
+        {
+          "from": "/credentials",
+          "to": "/credentials"
+        }
+      ]
+    }
+  }
+}
