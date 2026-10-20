@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Narzędzia do zarządzania danymi logowania",
+    "description": "Generuj klucze SSH, sprawdzaj je i kopiuj klucz publiczny na hosta."
+  },
+  "permissions": {
+    "use": {
+      "title": "Użyj narzędzi do zarządzania danymi logowania",
+      "description": "Generuj i sprawdzaj klucze SSH oraz kopiuj klucz publiczny na hosta."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Wygeneruj parę kluczy",
+    "generateKeyPairDescription": "Wygeneruj nowy parę kluczy, zarówno klucz prywatny, jak i publiczny zostaną wypełnione automatycznie.",
+    "keyPairGenerated": "{{label}}: wygenerowano parę kluczy",
+    "failedToGenerateKeyPair": "Nie udało się wygenerować pary kluczy",
+    "generateLabel": "Generuj {{label}}",
+    "generatingKey": "Generowanie...",
+    "publicKeyGenerated": "Wygenerowano klucz publiczny",
+    "failedToGeneratePublicKey": "Nie udało się wygenerować klucza publicznego",
+    "generateFromPrivateKey": "Generuj z klucza prywatnego"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Wdróż klucz na host",
+    "keyDeployedSuccess": "Klucz został pomyślnie wdrożony",
+    "failedToDeployKey": "Nie udało się wdrożyć klucza",
+    "deployDialogTitle": "Wdróż klucz SSH",
+    "deployingBtn": "Wdrażanie...",
+    "deployBtn": "Wdróż",
+    "deployDialogDesc": "Wdróż {{name}} do pliku authorized_keys na hoście.",
+    "targetHostLabel": "Host docelowy",
+    "selectHostOption": "Wybierz hosta..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Kredensialverktyg",
+    "description": "Generera SSH-nycklar, kontrollera dem och kopiera en offentlig nyckel till en värd."
+  },
+  "permissions": {
+    "use": {
+      "title": "Använd kredensialverktyg",
+      "description": "Generera och kontrollera SSH-nycklar samt kopiera en offentlig nyckel till en värd."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generera nyckelpar",
+    "generateKeyPairDescription": "Generera ett nytt nyckelpar, både privat och offentlig nyckel fylls i automatiskt.",
+    "keyPairGenerated": "Nyckelparet {{label}} har genererats",
+    "failedToGenerateKeyPair": "Misslyckades med att generera nyckelpar",
+    "generateLabel": "Generera {{label}}",
+    "generatingKey": "Genererar...",
+    "publicKeyGenerated": "Offentlig nyckel genererad",
+    "failedToGeneratePublicKey": "Misslyckades med att härleda offentlig nyckel",
+    "generateFromPrivateKey": "Generera från privat nyckel"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Distribuera nyckel till värd",
+    "keyDeployedSuccess": "Nyckeln distribuerades korrekt",
+    "failedToDeployKey": "Misslyckades med att distribuera nyckel",
+    "deployDialogTitle": "Distribuera SSH-nyckel",
+    "deployingBtn": "Distribuerar...",
+    "deployBtn": "Distribuera",
+    "deployDialogDesc": "Distribuera {{name}} till en värds authorized_keys.",
+    "targetHostLabel": "Målserver",
+    "selectHostOption": "Välj en server..."
+  }
+}

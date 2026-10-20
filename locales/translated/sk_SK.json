@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Nástroje na správu prihlasovacích údajov",
+    "description": "Vytvorte SSH kľúče, overte ich a skopírujte verejný kľúč na hostiteľa."
+  },
+  "permissions": {
+    "use": {
+      "title": "Používať nástroje na správu poverení",
+      "description": "Generovanie a overovanie SSH kľúčov a kopírovanie verejného kľúča na hostiteľa."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Vygenerovať kľúčový pár",
+    "generateKeyPairDescription": "Vygenerujte nový kľúčový pár, súkromný aj verejný kľúč sa vyplnia automaticky.",
+    "keyPairGenerated": "Vytvorený kľúčový pár {{label}}",
+    "failedToGenerateKeyPair": "Nepodarilo sa vygenerovať kľúčový pár",
+    "generateLabel": "Vygenerovať {{label}}",
+    "generatingKey": "Generovanie...",
+    "publicKeyGenerated": "Verejný kľúč bol vygenerovaný",
+    "failedToGeneratePublicKey": "Nepodarilo sa odvodiť verejný kľúč",
+    "generateFromPrivateKey": "Vygenerovať z kľúča"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Nainštalovať kľúč na hostiteľa",
+    "keyDeployedSuccess": "Kľúč bol úspešne nasadený",
+    "failedToDeployKey": "Nepodarilo sa nasadiť kľúč",
+    "deployDialogTitle": "Nasadiť SSH kľúč",
+    "deployingBtn": "Nasadzujem...",
+    "deployBtn": "Nasadiť",
+    "deployDialogDesc": "Nasadiť {{name}} do súboru authorized_keys na hostiteľovi.",
+    "targetHostLabel": "Cieľový hostiteľ",
+    "selectHostOption": "Vyberte hostiteľa..."
+  }
+}

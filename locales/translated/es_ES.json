@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Herramientas de credenciales",
+    "description": "Genera claves SSH, comprueba su estado y copia una clave pública en un host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Usar herramientas de credenciales",
+      "description": "Generar y comprobar claves SSH y copiar una clave pública en un host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generar par de claves",
+    "generateKeyPairDescription": "Genera un nuevo par de claves; tanto la clave privada como la pública se rellenarán automáticamente.",
+    "keyPairGenerated": "Par de claves {{label}} generado",
+    "failedToGenerateKeyPair": "Error al generar el par de claves",
+    "generateLabel": "Generar {{label}}",
+    "generatingKey": "Generando...",
+    "publicKeyGenerated": "Clave pública generada",
+    "failedToGeneratePublicKey": "Error al derivar la clave pública",
+    "generateFromPrivateKey": "Generar desde clave privada"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Desplegar clave en el host",
+    "keyDeployedSuccess": "Clave desplegada correctamente",
+    "failedToDeployKey": "Error al desplegar la clave",
+    "deployDialogTitle": "Desplegar clave SSH",
+    "deployingBtn": "Desplegando...",
+    "deployBtn": "Desplegar",
+    "deployDialogDesc": "Desplegar {{name}} en authorized_keys de un host.",
+    "targetHostLabel": "Host de destino",
+    "selectHostOption": "Selecciona un host..."
+  }
+}

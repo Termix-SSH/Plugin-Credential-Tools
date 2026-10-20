@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Nástroje pro přihlašovací údaje",
+    "description": "Generování SSH klíčů, jejich ověřování a kopírování veřejného klíče na hostitele."
+  },
+  "permissions": {
+    "use": {
+      "title": "Používání nástrojů pro přihlašovací údaje",
+      "description": "Generování a ověřování SSH klíčů a kopírování veřejného klíče na hostitele."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Vygenerovat pár klíčů",
+    "generateKeyPairDescription": "Vygenerovat nový pár klíčů, soukromý i veřejný klíč se vyplní automaticky.",
+    "keyPairGenerated": "Pár klíčů {{label}} byl vygenerován",
+    "failedToGenerateKeyPair": "Nepodařilo se vygenerovat pár klíčů",
+    "generateLabel": "Vygenerovat {{label}}",
+    "generatingKey": "Generování...",
+    "publicKeyGenerated": "Veřejný klíč byl vygenerován",
+    "failedToGeneratePublicKey": "Nepodařilo se odvodit veřejný klíč",
+    "generateFromPrivateKey": "Vygenerovat ze soukromého klíče"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Nainstalovat klíč na hostitele",
+    "keyDeployedSuccess": "Klíč byl úspěšně nainstalován",
+    "failedToDeployKey": "Nepodařilo se nainstalovat klíč",
+    "deployDialogTitle": "Nainstalovat SSH klíč",
+    "deployingBtn": "Instalace...",
+    "deployBtn": "Nainstalovat",
+    "deployDialogDesc": "Nainstalovat {{name}} do souboru authorized_keys na hostiteli.",
+    "targetHostLabel": "Cílový hostitel",
+    "selectHostOption": "Vyberte hostitele..."
+  }
+}

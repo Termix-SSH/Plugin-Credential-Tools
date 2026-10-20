@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential Tools",
+    "description": "Genereer SSH-sleutels, controleer ze en kopieer een openbare sleutel naar een host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Gebruik credential tools",
+      "description": "Genereer en controleer SSH-sleutels en kopieer een openbare sleutel naar een host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Sleutelpaar genereren",
+    "generateKeyPairDescription": "Genereer een nieuw sleutelpaar, zowel de private als de openbare sleutel worden automatisch ingevuld.",
+    "keyPairGenerated": "{{label}} sleutelpaar gegenereerd",
+    "failedToGenerateKeyPair": "Het genereren van het sleutelpaar is mislukt",
+    "generateLabel": "{{label}} genereren",
+    "generatingKey": "Genereren...",
+    "publicKeyGenerated": "Openbare sleutel gegenereerd",
+    "failedToGeneratePublicKey": "Het afleiden van de openbare sleutel is mislukt",
+    "generateFromPrivateKey": "Genereren vanuit private sleutel"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Sleutel naar host implementeren",
+    "keyDeployedSuccess": "Sleutel succesvol geïmplementeerd",
+    "failedToDeployKey": "Het implementeren van de sleutel is mislukt",
+    "deployDialogTitle": "SSH-sleutel implementeren",
+    "deployingBtn": "Implementeren...",
+    "deployBtn": "Implementeren",
+    "deployDialogDesc": "Implementeer {{name}} in de authorized_keys van een host.",
+    "targetHostLabel": "Doelhost",
+    "selectHostOption": "Selecteer een host..."
+  }
+}

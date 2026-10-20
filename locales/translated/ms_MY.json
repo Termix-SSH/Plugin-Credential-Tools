@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Alat Kredensial",
+    "description": "Jana kunci SSH, semak kunci tersebut, dan salin kunci awam ke hos."
+  },
+  "permissions": {
+    "use": {
+      "title": "Gunakan alat kredensial",
+      "description": "Jana dan semak kunci SSH serta salin kunci awam ke hos."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Jana Pasangan Kunci",
+    "generateKeyPairDescription": "Jana pasangan kunci baharu; kedua-dua kunci peribadi dan awam akan diisi secara automatik.",
+    "keyPairGenerated": "Pasangan kunci {{label}} berjaya dijana",
+    "failedToGenerateKeyPair": "Gagal menjana pasangan kunci",
+    "generateLabel": "Jana {{label}}",
+    "generatingKey": "Sedang menjana...",
+    "publicKeyGenerated": "Kunci awam berjaya dijana",
+    "failedToGeneratePublicKey": "Gagal mendapatkan kunci awam",
+    "generateFromPrivateKey": "Jana daripada Kunci Peribadi"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Laksanakan kunci ke hos",
+    "keyDeployedSuccess": "Kunci berjaya dilaksanakan",
+    "failedToDeployKey": "Gagal melaksanakan kunci",
+    "deployDialogTitle": "Laksanakan Kunci SSH",
+    "deployingBtn": "Sedang melaksanakan...",
+    "deployBtn": "Laksanakan",
+    "deployDialogDesc": "Laksanakan {{name}} ke authorized_keys hos.",
+    "targetHostLabel": "Hos Sasaran",
+    "selectHostOption": "Pilih hos..."
+  }
+}

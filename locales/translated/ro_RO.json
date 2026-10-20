@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Instrumente de credențiale",
+    "description": "Generează chei SSH, verifică-le și copiază o cheie publică pe un host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Utilizarea instrumentelor de credențiale",
+      "description": "Generează și verifică chei SSH și copiază o cheie publică pe un host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generează pereche de chei",
+    "generateKeyPairDescription": "Generează o nouă pereche de chei, atât cheia privată, cât și cea publică vor fi completate automat.",
+    "keyPairGenerated": "Perechea de chei {{label}} a fost generată",
+    "failedToGenerateKeyPair": "Generarea perechii de chei a eșuat",
+    "generateLabel": "Generează {{label}}",
+    "generatingKey": "Se generează...",
+    "publicKeyGenerated": "Cheia publică a fost generată",
+    "failedToGeneratePublicKey": "Derivarea cheii publice a eșuat",
+    "generateFromPrivateKey": "Generează din cheia privată"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Distribuie cheia pe host",
+    "keyDeployedSuccess": "Cheia a fost distribuită cu succes",
+    "failedToDeployKey": "Distribuirea cheii a eșuat",
+    "deployDialogTitle": "Distribuie cheia SSH",
+    "deployingBtn": "Se distribuie...",
+    "deployBtn": "Distribuie",
+    "deployDialogDesc": "Distribuie {{name}} în authorized_keys ale unui host.",
+    "targetHostLabel": "Host țintă",
+    "selectHostOption": "Selectează un host..."
+  }
+}

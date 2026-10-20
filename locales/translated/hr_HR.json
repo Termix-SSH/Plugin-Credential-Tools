@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Alati za vjerodajnice",
+    "description": "Generirajte SSH ključeve, provjerite ih i kopirajte javni ključ na host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Koristi alate za vjerodajnice",
+      "description": "Generirajte i provjerite SSH ključeve te kopirajte javni ključ na host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generiraj par ključeva",
+    "generateKeyPairDescription": "Generirajte novi par ključeva, oba ključa (privatni i javni) bit će automatski popunjena.",
+    "keyPairGenerated": "Par ključeva {{label}} generiran",
+    "failedToGenerateKeyPair": "Neuspješno generiranje para ključeva",
+    "generateLabel": "Generiraj {{label}}",
+    "generatingKey": "Generiranje...",
+    "publicKeyGenerated": "Javni ključ generiran",
+    "failedToGeneratePublicKey": "Neuspješno izvođenje javnog ključa",
+    "generateFromPrivateKey": "Generiraj iz privatnog ključa"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Rasporedi ključ na host",
+    "keyDeployedSuccess": "Ključ uspješno raspoređen",
+    "failedToDeployKey": "Neuspješno raspoređivanje ključa",
+    "deployDialogTitle": "Rasporedi SSH ključ",
+    "deployingBtn": "Raspoređivanje...",
+    "deployBtn": "Rasporedi",
+    "deployDialogDesc": "Rasporedi {{name}} u authorized_keys datoteku hosta.",
+    "targetHostLabel": "Ciljani host",
+    "selectHostOption": "Odaberi host..."
+  }
+}

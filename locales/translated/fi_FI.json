@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Tunnusvälineet",
+    "description": "Luo SSH-avaimia, tarkista ne ja kopioi julkinen avain palvelimeen."
+  },
+  "permissions": {
+    "use": {
+      "title": "Tunnusvälineiden käyttö",
+      "description": "Luo ja tarkista SSH-avaimia sekä kopioi julkinen avain palvelimeen."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Luo avainpari",
+    "generateKeyPairDescription": "Luo uusi avainpari. Yksityinen ja julkinen avain täytetään automaattisesti.",
+    "keyPairGenerated": "{{label}}-avainpari luotu",
+    "failedToGenerateKeyPair": "Avainparin luonti epäonnistui",
+    "generateLabel": "Luo {{label}}",
+    "generatingKey": "Luodaan...",
+    "publicKeyGenerated": "Julkinen avain luotu",
+    "failedToGeneratePublicKey": "Julkkisen avaimen johtaminen epäonnistui",
+    "generateFromPrivateKey": "Luo yksityisestä avaimesta"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Asenna avain palvelimeen",
+    "keyDeployedSuccess": "Avain asennettu onnistuneesti",
+    "failedToDeployKey": "Avaimen asennus epäonnistui",
+    "deployDialogTitle": "Asenna SSH-avain",
+    "deployingBtn": "Asennetaan...",
+    "deployBtn": "Asenna",
+    "deployDialogDesc": "Asenna {{name}} palvelimen authorized_keys-tiedostoon.",
+    "targetHostLabel": "Kohdepalvelin",
+    "selectHostOption": "Valitse palvelin..."
+  }
+}

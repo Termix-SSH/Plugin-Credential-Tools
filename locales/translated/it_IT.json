@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Strumenti per le credenziali",
+    "description": "Genera chiavi SSH, verifica le chiavi e copia una chiave pubblica su un host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Usa gli strumenti per le credenziali",
+      "description": "Genera e verifica le chiavi SSH e copia una chiave pubblica su un host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Genera coppia di chiavi",
+    "generateKeyPairDescription": "Genera una nuova coppia di chiavi, sia la chiave privata che quella pubblica verranno compilate automaticamente.",
+    "keyPairGenerated": "Coppia di chiavi {{label}} generata",
+    "failedToGenerateKeyPair": "Impossibile generare la coppia di chiavi",
+    "generateLabel": "Genera {{label}}",
+    "generatingKey": "Generazione in corso...",
+    "publicKeyGenerated": "Chiave pubblica generata",
+    "failedToGeneratePublicKey": "Impossibile derivare la chiave pubblica",
+    "generateFromPrivateKey": "Genera dalla chiave privata"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Distribuisci la chiave all'host",
+    "keyDeployedSuccess": "Chiave distribuita con successo",
+    "failedToDeployKey": "Impossibile distribuire la chiave",
+    "deployDialogTitle": "Distribuisci chiave SSH",
+    "deployingBtn": "Distribuzione in corso...",
+    "deployBtn": "Distribuisci",
+    "deployDialogDesc": "Distribuisci {{name}} nel file authorized_keys di un host.",
+    "targetHostLabel": "Host di destinazione",
+    "selectHostOption": "Seleziona un host..."
+  }
+}

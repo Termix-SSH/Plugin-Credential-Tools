@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Hitelesítési eszközök",
+    "description": "SSH-kulcsok generálása, ellenőrzése és a nyilvános kulcs másolása egy gazdagépre."
+  },
+  "permissions": {
+    "use": {
+      "title": "Hitelesítési eszközök használata",
+      "description": "SSH-kulcsok generálása és ellenőrzése, valamint egy nyilvános kulcs másolása egy gazdagépre."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Kulcspár generálása",
+    "generateKeyPairDescription": "Generáljon egy új kulcspárt, a privát és a nyilvános kulcsok automatikusan kitöltésre kerülnek.",
+    "keyPairGenerated": "A(z) {{label}} kulcspár generálva",
+    "failedToGenerateKeyPair": "Nem sikerült generálni a kulcspárt",
+    "generateLabel": "Generálás {{label}}",
+    "generatingKey": "Generálás...",
+    "publicKeyGenerated": "Nyilvános kulcs generálva",
+    "failedToGeneratePublicKey": "Nem sikerült levezetni a nyilvános kulcsot",
+    "generateFromPrivateKey": "Generálás privát kulcsból"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Kulcs telepítése a hostra",
+    "keyDeployedSuccess": "A kulcs sikeresen telepítve",
+    "failedToDeployKey": "Nem sikerült telepíteni a kulcsot",
+    "deployDialogTitle": "SSH-kulcs telepítése",
+    "deployingBtn": "Telepítés...",
+    "deployBtn": "Telepítés",
+    "deployDialogDesc": "A(z) {{name}} telepítése a host authorized_keys fájljába.",
+    "targetHostLabel": "Célhost",
+    "selectHostOption": "Válasszon egy hostot..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Ferramentas de Credenciais",
+    "description": "Gere chaves SSH, verifique-as e copie uma chave pública para um host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Usar ferramentas de credenciais",
+      "description": "Gerar e verificar chaves SSH e copiar uma chave pública para um host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Gerar Par de Chaves",
+    "generateKeyPairDescription": "Gere um novo par de chaves, tanto a chave privada quanto a pública serão preenchidas automaticamente.",
+    "keyPairGenerated": "Par de chaves {{label}} gerado",
+    "failedToGenerateKeyPair": "Falha ao gerar par de chaves",
+    "generateLabel": "Gerar {{label}}",
+    "generatingKey": "Gerando...",
+    "publicKeyGenerated": "Chave pública gerada",
+    "failedToGeneratePublicKey": "Falha ao derivar chave pública",
+    "generateFromPrivateKey": "Gerar a partir da Chave Privada"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Implantar chave no host",
+    "keyDeployedSuccess": "Chave implantada com sucesso",
+    "failedToDeployKey": "Falha ao implantar chave",
+    "deployDialogTitle": "Implantar Chave SSH",
+    "deployingBtn": "Implantando...",
+    "deployBtn": "Implantar",
+    "deployDialogDesc": "Implante {{name}} no arquivo authorized_keys de um host.",
+    "targetHostLabel": "Host de Destino",
+    "selectHostOption": "Selecione um host..."
+  }
+}

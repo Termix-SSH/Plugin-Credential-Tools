@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential Tools",
+    "description": "SSH কী তৈরি করুন, যাচাই করুন এবং একটি পাবলিক কী হোস্টে কপি করুন।"
+  },
+  "permissions": {
+    "use": {
+      "title": "ক্রেডেনশিয়াল টুলস ব্যবহার করুন",
+      "description": "SSH কী তৈরি এবং যাচাই করুন এবং একটি পাবলিক কী হোস্টে কপি করুন।"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "কী পেয়ার তৈরি করুন",
+    "generateKeyPairDescription": "একটি নতুন কী পেয়ার তৈরি করুন, ব্যক্তিগত এবং পাবলিক উভয় কীই স্বয়ংক্রিয়ভাবে পূরণ করা হবে।",
+    "keyPairGenerated": "{{label}} কী পেয়ার তৈরি হয়েছে",
+    "failedToGenerateKeyPair": "কী পেয়ার তৈরি করতে ব্যর্থ হয়েছে",
+    "generateLabel": "{{label}} তৈরি করুন",
+    "generatingKey": "তৈরি হচ্ছে...",
+    "publicKeyGenerated": "পাবলিক কী তৈরি হয়েছে",
+    "failedToGeneratePublicKey": "পাবলিক কী উদ্ভাবন করতে ব্যর্থ হয়েছে",
+    "generateFromPrivateKey": "প্রাইভেট কী থেকে তৈরি করুন"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "হোস্টে কী ডিপ্লয় করুন",
+    "keyDeployedSuccess": "কী সফলভাবে ডিপ্লয় হয়েছে",
+    "failedToDeployKey": "কী ডিপ্লয় করতে ব্যর্থ হয়েছে",
+    "deployDialogTitle": "SSH কী ডিপ্লয় করুন",
+    "deployingBtn": "ডিপ্লয় হচ্ছে...",
+    "deployBtn": "ডিপ্লয় করুন",
+    "deployDialogDesc": "{{name}} কে একটি হোস্টের authorized_keys-এ ডিপ্লয় করুন।",
+    "targetHostLabel": "টার্গেট হোস্ট",
+    "selectHostOption": "একটি হোস্ট নির্বাচন করুন..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Công cụ thông tin đăng nhập",
+    "description": "Tạo khóa SSH, kiểm tra chúng và sao chép khóa công khai lên máy chủ."
+  },
+  "permissions": {
+    "use": {
+      "title": "Sử dụng công cụ thông tin đăng nhập",
+      "description": "Tạo và kiểm tra khóa SSH, sao chép khóa công khai lên máy chủ."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Tạo cặp khóa",
+    "generateKeyPairDescription": "Tạo một cặp khóa mới, cả khóa riêng và khóa công khai sẽ được điền tự động.",
+    "keyPairGenerated": "Đã tạo cặp khóa {{label}}",
+    "failedToGenerateKeyPair": "Không thể tạo cặp khóa",
+    "generateLabel": "Tạo {{label}}",
+    "generatingKey": "Đang tạo...",
+    "publicKeyGenerated": "Đã tạo khóa công khai",
+    "failedToGeneratePublicKey": "Không thể suy ra khóa công khai",
+    "generateFromPrivateKey": "Tạo từ khóa riêng tư"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Triển khai khóa đến máy chủ",
+    "keyDeployedSuccess": "Đã triển khai khóa thành công",
+    "failedToDeployKey": "Không thể triển khai khóa",
+    "deployDialogTitle": "Triển khai khóa SSH",
+    "deployingBtn": "Đang triển khai...",
+    "deployBtn": "Triển khai",
+    "deployDialogDesc": "Triển khai {{name}} vào authorized_keys của máy chủ.",
+    "targetHostLabel": "Máy chủ đích",
+    "selectHostOption": "Chọn một máy chủ..."
+  }
+}

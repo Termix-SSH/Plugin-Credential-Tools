@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Usaldusandmete tööriistad",
+    "description": "SSH- võtmete genereerimine, nende kontrollimine ja avaliku võtme kopeerimine hostile."
+  },
+  "permissions": {
+    "use": {
+      "title": "Usaldusandmete tööriistade kasutamine",
+      "description": "SSH- võtmete genereerimine ja kontrollimine ning avaliku võtme kopeerimine hostile."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Võtmepaari genereerimine",
+    "generateKeyPairDescription": "Uue võtmepaari genereerimine, nii privaatne kui ka avalik võti täidetakse automaatselt.",
+    "keyPairGenerated": "{{label}} võtmepaar genereeritud",
+    "failedToGenerateKeyPair": "Võtmepaari genereerimine ebaõnnestus",
+    "generateLabel": "{{label}} genereerimine",
+    "generatingKey": "Genereerimine...",
+    "publicKeyGenerated": "Avalik võti genereeritud",
+    "failedToGeneratePublicKey": "Avaliku võtme tuletamine ebaõnnestus",
+    "generateFromPrivateKey": "Genereerimine privaatvõtme põhjal"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Võtme paigutamine hostile",
+    "keyDeployedSuccess": "Võti paigutatud edukalt",
+    "failedToDeployKey": "Võtme paigutamine ebaõnnestus",
+    "deployDialogTitle": "SSH- võtme paigutamine",
+    "deployingBtn": "Paigutamine...",
+    "deployBtn": "Paiguta",
+    "deployDialogDesc": "Paiguta {{name}} hosti faili authorized_keys.",
+    "targetHostLabel": "Siht-host",
+    "selectHostOption": "Vali host..."
+  }
+}

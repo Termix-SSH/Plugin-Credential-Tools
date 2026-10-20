@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential Tools",
+    "description": "SSH कीज़ जनरेट करें, उनकी जाँच करें और एक सार्वजनिक कीज़ को होस्ट पर कॉपी करें।"
+  },
+  "permissions": {
+    "use": {
+      "title": "क्रेडेंशियल टूल्स का उपयोग करें",
+      "description": "SSH कीज़ जनरेट और जाँच करें और एक सार्वजनिक कीज़ को होस्ट पर कॉपी करें।"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "की पेयर जनरेट करें",
+    "generateKeyPairDescription": "एक नया की पेयर जनरेट करें, निजी और सार्वजनिक दोनों कीज़ स्वचालित रूप से भरे जाएंगे।",
+    "keyPairGenerated": "{{label}} की पेयर जनरेट किया गया",
+    "failedToGenerateKeyPair": "की पेयर जनरेट करने में विफल",
+    "generateLabel": "{{label}} जनरेट करें",
+    "generatingKey": "जनरेट हो रहा है...",
+    "publicKeyGenerated": "सार्वजनिक कुंजी उत्पन्न की गई",
+    "failedToGeneratePublicKey": "सार्वजनिक कुंजी व्युत्पन्न करने में विफल",
+    "generateFromPrivateKey": "निजी कुंजी से उत्पन्न करें"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "कुंजी को होस्ट पर तैनात करें",
+    "keyDeployedSuccess": "कुंजी सफलतापूर्वक तैनात की गई",
+    "failedToDeployKey": "कुंजी तैनात करने में विफल",
+    "deployDialogTitle": "SSH कुंजी तैनात करें",
+    "deployingBtn": "तैनात किया जा रहा है...",
+    "deployBtn": "तैनात करें",
+    "deployDialogDesc": "{{name}} को किसी होस्ट के authorized_keys में तैनात करें।",
+    "targetHostLabel": "लक्ष्य होस्ट",
+    "selectHostOption": "एक होस्ट चुनें..."
+  }
+}

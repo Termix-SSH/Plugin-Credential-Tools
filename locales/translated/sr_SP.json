@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Алати за акредитиве",
+    "description": "Генеришите SSH кључеве, проверите их и копирајте јавни кључ на хост."
+  },
+  "permissions": {
+    "use": {
+      "title": "Користи алате за акредитиве",
+      "description": "Генеришите и проверавајте SSH кључеве и копирајте јавни кључ на хост."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Генериши пар кључева",
+    "generateKeyPairDescription": "Генеришите нови пар кључева, приватни и јавни кључ ће бити аутоматски попуњени.",
+    "keyPairGenerated": "Пар кључева {{label}} је генерисан",
+    "failedToGenerateKeyPair": "Генерисање пара кључева није успело",
+    "generateLabel": "Генериши {{label}}",
+    "generatingKey": "Генерисање...",
+    "publicKeyGenerated": "Јавни кључ је генерисан",
+    "failedToGeneratePublicKey": "Неуспешно извођење јавног кључа",
+    "generateFromPrivateKey": "Генериши из приватног кључа"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Распoredи кључ на хост",
+    "keyDeployedSuccess": "Кључ је успешно распоређен",
+    "failedToDeployKey": "Неуспешно распоређивање кључа",
+    "deployDialogTitle": "Дистрибуција SSH кључа",
+    "deployingBtn": "Дистрибуција...",
+    "deployBtn": "Расположи",
+    "deployDialogDesc": "Деплојујте {{name}} у authorized_keys датотеку хоста.",
+    "targetHostLabel": "Циљни хост",
+    "selectHostOption": "Изаберите хост..."
+  }
+}

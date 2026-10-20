@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Инструменты учётных данных",
+    "description": "Генерация SSH-ключей, проверка и копирование открытого ключа на хост."
+  },
+  "permissions": {
+    "use": {
+      "title": "Использовать инструменты учётных данных",
+      "description": "Генерация и проверка SSH-ключей, а также копирование открытого ключа на хост."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Сгенерировать пару ключей",
+    "generateKeyPairDescription": "Сгенерировать новую пару ключей. Заполнятся как закрытый, так и открытый ключи.",
+    "keyPairGenerated": "Пара ключей {{label}} сгенерирована",
+    "failedToGenerateKeyPair": "Не удалось сгенерировать пару ключей",
+    "generateLabel": "Сгенерировать {{label}}",
+    "generatingKey": "Генерация...",
+    "publicKeyGenerated": "Открытый ключ сгенерирован",
+    "failedToGeneratePublicKey": "Не удалось получить открытый ключ",
+    "generateFromPrivateKey": "Сгенерировать из закрытого ключа"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Развернуть ключ на хосте",
+    "keyDeployedSuccess": "Ключ успешно развернут",
+    "failedToDeployKey": "Не удалось развернуть ключ",
+    "deployDialogTitle": "Развернуть SSH-ключ",
+    "deployingBtn": "Развертывание...",
+    "deployBtn": "Развернуть",
+    "deployDialogDesc": "Развернуть {{name}} в файле authorized_keys хоста.",
+    "targetHostLabel": "Целевой хост",
+    "selectHostOption": "Выберите хост..."
+  }
+}

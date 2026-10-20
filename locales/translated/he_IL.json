@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "כלי אישורים",
+    "description": "יצירת מפתחות SSH, בדיקתם והעתקת מפתח ציבורי למארח."
+  },
+  "permissions": {
+    "use": {
+      "title": "השתמש בכלי אימות",
+      "description": "יצירה ובדיקה של מפתחות SSH והעתקת מפתח ציבורי למארח."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "צור זוג מפתחות",
+    "generateKeyPairDescription": "צור זוג מפתחות חדש, גם המפתח הפרטי וגם המפתח הציבורי ימולאו באופן אוטומטי.",
+    "keyPairGenerated": "זוג מפתחות {{label}} נוצר",
+    "failedToGenerateKeyPair": "נכשל ביצירת זוג מפתחות",
+    "generateLabel": "צור {{label}}",
+    "generatingKey": "מייצר...",
+    "publicKeyGenerated": "מפתח ציבורי נוצר",
+    "failedToGeneratePublicKey": "נכשל בניסיון להפיק מפתח ציבורי",
+    "generateFromPrivateKey": "יצירה ממפתח פרטי"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "הטמעת מפתח במארח",
+    "keyDeployedSuccess": "המפתח הוטמע בהצלחה",
+    "failedToDeployKey": "נכשל בניסיון להטמיע את המפתח",
+    "deployDialogTitle": "הטמעת מפתח SSH",
+    "deployingBtn": "מטמיע...",
+    "deployBtn": "הטמעה",
+    "deployDialogDesc": "הטמעת {{name}} ב-authorized_keys של מארח.",
+    "targetHostLabel": "מארח יעד",
+    "selectHostOption": "בחר מארח..."
+  }
+}

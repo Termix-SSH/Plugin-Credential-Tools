@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Eines de credencials",
+    "description": "Genera claus SSH, comprova-les i copia una clau pública a un host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Utilitzar les eines de credencials",
+      "description": "Generar i comprovar claus SSH i copiar una clau pública a un host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generar un parell de claus",
+    "generateKeyPairDescription": "Genera un nou parell de claus; tant la clau privada com la pública s'ompliran automàticament.",
+    "keyPairGenerated": "Parell de claus {{label}} generat",
+    "failedToGenerateKeyPair": "No s'ha pogut generar el parell de claus",
+    "generateLabel": "Generar {{label}}",
+    "generatingKey": "Generant...",
+    "publicKeyGenerated": "Clau pública generada",
+    "failedToGeneratePublicKey": "No s'ha pogut derivar la clau pública",
+    "generateFromPrivateKey": "Generar a partir de la clau privada"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Desplegar la clau a un host",
+    "keyDeployedSuccess": "Clau desplegada correctament",
+    "failedToDeployKey": "No s'ha pogut desplegar la clau",
+    "deployDialogTitle": "Desplegar la clau SSH",
+    "deployingBtn": "Desplegant...",
+    "deployBtn": "Desplegar",
+    "deployDialogDesc": "Desplega {{name}} a l'arxiu authorized_keys d'un host.",
+    "targetHostLabel": "Host de destí",
+    "selectHostOption": "Selecciona un host..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "أدوات بيانات الاعتماد",
+    "description": "إنشاء مفاتيح SSH، والتحقق منها، ونسخ المفتاح العام إلى مضيف."
+  },
+  "permissions": {
+    "use": {
+      "title": "استخدام أدوات بيانات الاعتماد",
+      "description": "إنشاء مفاتيح SSH والتحقق منها، ونسخ المفتاح العام إلى مضيف."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "إنشاء زوج مفاتيح",
+    "generateKeyPairDescription": "إنشاء زوج مفاتيح جديد، سيتم ملء المفتاحين الخاص والعام تلقائيًا.",
+    "keyPairGenerated": "تم إنشاء زوج مفاتيح {{label}}",
+    "failedToGenerateKeyPair": "فشل في إنشاء زوج مفاتيح",
+    "generateLabel": "إنشاء {{label}}",
+    "generatingKey": "جارٍ الإنشاء...",
+    "publicKeyGenerated": "تم إنشاء المفتاح العام",
+    "failedToGeneratePublicKey": "فشل في اشتقاق المفتاح العام",
+    "generateFromPrivateKey": "إنشاء من المفتاح الخاص"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "نشر المفتاح على المضيف",
+    "keyDeployedSuccess": "تم نشر المفتاح بنجاح",
+    "failedToDeployKey": "فشل في نشر المفتاح",
+    "deployDialogTitle": "نشر مفتاح SSH",
+    "deployingBtn": "جارٍ النشر...",
+    "deployBtn": "نشر",
+    "deployDialogDesc": "نشر {{name}} إلى ملف authorized_keys للمضيف.",
+    "targetHostLabel": "المضيف المستهدف",
+    "selectHostOption": "اختر مضيفًا..."
+  }
+}

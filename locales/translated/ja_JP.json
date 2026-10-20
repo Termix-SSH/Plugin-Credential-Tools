@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential Tools",
+    "description": "SSH キーを生成し、確認して、公開鍵をホストにコピーします。"
+  },
+  "permissions": {
+    "use": {
+      "title": "Credential Tools を使用する",
+      "description": "SSH キーを生成・確認し、公開鍵をホストにコピーします。"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "キーペアを生成",
+    "generateKeyPairDescription": "新しいキーペアを生成します。秘密鍵と公開鍵は自動的に設定されます。",
+    "keyPairGenerated": "{{label}} キーペアが生成されました",
+    "failedToGenerateKeyPair": "キーペアの生成に失敗しました",
+    "generateLabel": "{{label}} を生成",
+    "generatingKey": "生成中...",
+    "publicKeyGenerated": "公開鍵が生成されました",
+    "failedToGeneratePublicKey": "公開キーの派生に失敗しました",
+    "generateFromPrivateKey": "秘密鍵から生成"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "キーをホストにデプロイ",
+    "keyDeployedSuccess": "キーのデプロイに成功しました",
+    "failedToDeployKey": "キーのデプロイに失敗しました",
+    "deployDialogTitle": "SSH キーをデプロイ",
+    "deployingBtn": "デプロイ中...",
+    "deployBtn": "デプロイ",
+    "deployDialogDesc": "「{{name}}」をホストの authorized_keys にデプロイします。",
+    "targetHostLabel": "ターゲットホスト",
+    "selectHostOption": "ホストを選択..."
+  }
+}

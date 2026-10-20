@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential-Tools",
+    "description": "Erstellen und überprüfen Sie SSH-Schlüssel und kopieren Sie einen öffentlichen Schlüssel auf einen Host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Credential-Tools verwenden",
+      "description": "Erstellen und überprüfen Sie SSH-Schlüssel und kopieren Sie einen öffentlichen Schlüssel auf einen Host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Schlüsselpaar generieren",
+    "generateKeyPairDescription": "Ein neues Schlüsselpaar generieren. Sowohl der private als auch der öffentliche Schlüssel werden automatisch ausgefüllt.",
+    "keyPairGenerated": "{{label}}-Schlüsselpaar generiert",
+    "failedToGenerateKeyPair": "Schlüsselpaar konnte nicht generiert werden",
+    "generateLabel": "{{label}} generieren",
+    "generatingKey": "Wird generiert...",
+    "publicKeyGenerated": "Öffentlicher Schlüssel generiert",
+    "failedToGeneratePublicKey": "Öffentlicher Schlüssel konnte nicht abgeleitet werden",
+    "generateFromPrivateKey": "Aus privatem Schlüssel generieren"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Schlüssel auf Host bereitstellen",
+    "keyDeployedSuccess": "Schlüssel erfolgreich bereitgestellt",
+    "failedToDeployKey": "Schlüssel konnte nicht bereitgestellt werden",
+    "deployDialogTitle": "SSH-Schlüssel bereitstellen",
+    "deployingBtn": "Wird bereitgestellt...",
+    "deployBtn": "Bereitstellen",
+    "deployDialogDesc": "{{name}} in der Datei authorized_keys eines Hosts bereitstellen.",
+    "targetHostLabel": "Zielhost",
+    "selectHostOption": "Host auswählen..."
+  }
+}

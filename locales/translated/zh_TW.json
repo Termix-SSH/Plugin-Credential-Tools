@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "憑證工具",
+    "description": "產生 SSH 金鑰、檢查金鑰，並將公鑰複製到主機。"
+  },
+  "permissions": {
+    "use": {
+      "title": "使用憑證工具",
+      "description": "產生並檢查 SSH 金鑰，以及將公鑰複製到主機。"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "產生金鑰對",
+    "generateKeyPairDescription": "產生新的金鑰對，私鑰與公鑰都會自動填入。",
+    "keyPairGenerated": "已產生 {{label}} 金鑰對",
+    "failedToGenerateKeyPair": "產生金鑰對失敗",
+    "generateLabel": "產生 {{label}}",
+    "generatingKey": "產生中...",
+    "publicKeyGenerated": "已產生公鑰",
+    "failedToGeneratePublicKey": "推導公鑰失敗",
+    "generateFromPrivateKey": "從私鑰產生"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "部署金鑰至主機",
+    "keyDeployedSuccess": "金鑰部署成功",
+    "failedToDeployKey": "部署金鑰失敗",
+    "deployDialogTitle": "部署 SSH 金鑰",
+    "deployingBtn": "部署中...",
+    "deployBtn": "部署",
+    "deployDialogDesc": "將 {{name}} 部署至主機的 authorized_keys。",
+    "targetHostLabel": "目標主機",
+    "selectHostOption": "選擇主機..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Инструменти за идентификация",
+    "description": "Генерирайте SSH ключове, проверете ги и копирайте публичния ключ към хост."
+  },
+  "permissions": {
+    "use": {
+      "title": "Използване на инструменти за идентификация",
+      "description": "Генериране и проверка на SSH ключове и копиране на публичен ключ към хост."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Генериране на двойка ключове",
+    "generateKeyPairDescription": "Генерирайте нова двойка ключове, както частният, така и публичният ключ ще бъдат попълнени автоматично.",
+    "keyPairGenerated": "Генерирана е двойка ключове {{label}}",
+    "failedToGenerateKeyPair": "Генерирането на двойка ключове не бе успешно",
+    "generateLabel": "Генериране на {{label}}",
+    "generatingKey": "Генериране...",
+    "publicKeyGenerated": "Публичният ключ е генериран",
+    "failedToGeneratePublicKey": "Неуспешно извличане на публичен ключ",
+    "generateFromPrivateKey": "Генериране от частен ключ"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Разполагане на ключ към хост",
+    "keyDeployedSuccess": "Ключът е разположен успешно",
+    "failedToDeployKey": "Разполагането на ключа не бе успешно",
+    "deployDialogTitle": "Разполагане на SSH ключ",
+    "deployingBtn": "Разполагане...",
+    "deployBtn": "Разположи",
+    "deployDialogDesc": "Разположете {{name}} в authorized_keys на хост.",
+    "targetHostLabel": "Целеви хост",
+    "selectHostOption": "Изберете хост..."
+  }
+}

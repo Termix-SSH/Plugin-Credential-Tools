@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "凭据工具",
+    "description": "生成 SSH 密钥、检查密钥，并将公钥复制到主机。"
+  },
+  "permissions": {
+    "use": {
+      "title": "使用凭据工具",
+      "description": "生成和检查 SSH 密钥，并将公钥复制到主机。"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "生成密钥对",
+    "generateKeyPairDescription": "生成新的密钥对，私钥和公钥将自动填充。",
+    "keyPairGenerated": "{{label}} 密钥对已生成",
+    "failedToGenerateKeyPair": "生成密钥对失败",
+    "generateLabel": "生成 {{label}}",
+    "generatingKey": "正在生成...",
+    "publicKeyGenerated": "公钥已生成",
+    "failedToGeneratePublicKey": "派生公钥失败",
+    "generateFromPrivateKey": "从私钥生成"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "将密钥部署到主机",
+    "keyDeployedSuccess": "密钥部署成功",
+    "failedToDeployKey": "部署密钥失败",
+    "deployDialogTitle": "部署 SSH 密钥",
+    "deployingBtn": "正在部署...",
+    "deployBtn": "部署",
+    "deployDialogDesc": "将 {{name}} 部署到主机的 authorized_keys。",
+    "targetHostLabel": "目标主机",
+    "selectHostOption": "选择主机..."
+  }
+}

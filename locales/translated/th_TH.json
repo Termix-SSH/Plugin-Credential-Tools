@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Credential Tools",
+    "description": "สร้าง SSH keys, ตรวจสอบ และคัดลอก public key ไปยัง host"
+  },
+  "permissions": {
+    "use": {
+      "title": "ใช้เครื่องมือจัดการข้อมูลรับรอง",
+      "description": "สร้างและตรวจสอบ SSH keys รวมถึงคัดลอก public key ไปยัง host"
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "สร้างคู่คีย์",
+    "generateKeyPairDescription": "สร้างคู่คีย์ใหม่ โดยทั้งคีย์ส่วนตัวและคีย์สาธารณะจะถูกกรอกอัตโนมัติ",
+    "keyPairGenerated": "สร้างคู่คีย์ {{label}} สำเร็จ",
+    "failedToGenerateKeyPair": "ไม่สามารถสร้างคู่คีย์ได้",
+    "generateLabel": "สร้าง {{label}}",
+    "generatingKey": "กำลังสร้าง...",
+    "publicKeyGenerated": "สร้างคีย์สาธารณะแล้ว",
+    "failedToGeneratePublicKey": "ไม่สามารถสร้างคีย์สาธารณะได้",
+    "generateFromPrivateKey": "สร้างจากคีย์ส่วนตัว"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "ติดตั้งคีย์ไปยังโฮสต์",
+    "keyDeployedSuccess": "ติดตั้งคีย์สำเร็จ",
+    "failedToDeployKey": "ไม่สามารถติดตั้งคีย์ได้",
+    "deployDialogTitle": "ติดตั้งคีย์ SSH",
+    "deployingBtn": "กำลังติดตั้ง...",
+    "deployBtn": "ติดตั้ง",
+    "deployDialogDesc": "ติดตั้ง {{name}} ไปยังไฟล์ authorized_keys ของโฮสต์",
+    "targetHostLabel": "โฮสต์เป้าหมาย",
+    "selectHostOption": "เลือกโฮสต์..."
+  }
+}

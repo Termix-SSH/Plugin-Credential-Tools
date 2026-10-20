@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Įgaliojimų įrankiai",
+    "description": "Generuoti SSH raktus, tikrinti juos ir nukopijuoti viešąjį raktą į serverį."
+  },
+  "permissions": {
+    "use": {
+      "title": "Naudoti įgaliojimų įrankius",
+      "description": "Generuoti ir tikrinti SSH raktus bei nukopijuoti viešąjį raktą į serverį."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generuoti rakto porą",
+    "generateKeyPairDescription": "Generuoti naują rakto porą, tiek privatus, tiek viešas raktas bus užpildyti automatiškai.",
+    "keyPairGenerated": "{{label}} rakto pora sugeneruota",
+    "failedToGenerateKeyPair": "Nepavyko sugeneruoti rakto poros",
+    "generateLabel": "Generuoti {{label}}",
+    "generatingKey": "Generuojama...",
+    "publicKeyGenerated": "Viešasis raktas sugeneruotas",
+    "failedToGeneratePublicKey": "Nepavyko išvesti viešojo rakto",
+    "generateFromPrivateKey": "Generuoti iš privataus rakto"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Įdiegti raktą į serverį",
+    "keyDeployedSuccess": "Raktas sėkmingai įdiegtas",
+    "failedToDeployKey": "Nepavyko įdiegti rakto",
+    "deployDialogTitle": "Įdiegti SSH raktą",
+    "deployingBtn": "Įdiegiama...",
+    "deployBtn": "Įdiegti",
+    "deployDialogDesc": "Įdiekite „{{name}}“ į serverio „authorized_keys“ failą.",
+    "targetHostLabel": "Tikslinis serveris",
+    "selectHostOption": "Pasirinkite serverį..."
+  }
+}

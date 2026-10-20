@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Værktøjer til legitimationsoplysninger",
+    "description": "Generer SSH-nøgler, tjek dem og kopier en offentlig nøgle til en vært."
+  },
+  "permissions": {
+    "use": {
+      "title": "Brug værktøjer til legitimationsoplysninger",
+      "description": "Generer og tjek SSH-nøgler og kopier en offentlig nøgle til en vært."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generer nøglepar",
+    "generateKeyPairDescription": "Generer et nyt nøglepar. Både den private og den offentlige nøgle udfyldes automatisk.",
+    "keyPairGenerated": "{{label}}-nøglepar genereret",
+    "failedToGenerateKeyPair": "Kunne ikke generere nøglepar",
+    "generateLabel": "Generer {{label}}",
+    "generatingKey": "Genererer...",
+    "publicKeyGenerated": "Offentlig nøgle genereret",
+    "failedToGeneratePublicKey": "Kunne ikke udlede offentlig nøgle",
+    "generateFromPrivateKey": "Generer fra privat nøgle"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Udrul nøgle til vært",
+    "keyDeployedSuccess": "Nøglen er udrullet med succes",
+    "failedToDeployKey": "Kunne ikke udrulle nøgle",
+    "deployDialogTitle": "Udrul SSH-nøgle",
+    "deployingBtn": "Udruller...",
+    "deployBtn": "Udrul",
+    "deployDialogDesc": "Udrul {{name}} til en værts authorized_keys.",
+    "targetHostLabel": "Målvert",
+    "selectHostOption": "Vælg en vært..."
+  }
+}

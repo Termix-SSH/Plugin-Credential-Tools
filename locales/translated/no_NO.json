@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Verktøy for påloggingsdetaljer",
+    "description": "Generer SSH-nøkler, sjekk dem og kopier en offentlig nøkkel til en vert."
+  },
+  "permissions": {
+    "use": {
+      "title": "Bruk verktøy for påloggingsdetaljer",
+      "description": "Generer og sjekk SSH-nøkler, og kopier en offentlig nøkkel til en vert."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Generer nøkkelsett",
+    "generateKeyPairDescription": "Generer et nytt nøkkelsett. Både privat og offentlig nøkkel fylles ut automatisk.",
+    "keyPairGenerated": "Nøkkelsettet {{label}} er generert",
+    "failedToGenerateKeyPair": "Kunne ikke generere nøkkelsett",
+    "generateLabel": "Generer {{label}}",
+    "generatingKey": "Genererer...",
+    "publicKeyGenerated": "Offentlig nøkkel generert",
+    "failedToGeneratePublicKey": "Kunne ikke utlede offentlig nøkkel",
+    "generateFromPrivateKey": "Generer fra privat nøkkel"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Distribuer nøkkel til vert",
+    "keyDeployedSuccess": "Nøkkelen ble distribuert",
+    "failedToDeployKey": "Kunne ikke distribuere nøkkel",
+    "deployDialogTitle": "Distribuer SSH-nøkkel",
+    "deployingBtn": "Distribuerer...",
+    "deployBtn": "Distribuer",
+    "deployDialogDesc": "Distribuer {{name}} til en verts authorized_keys.",
+    "targetHostLabel": "Målvert",
+    "selectHostOption": "Velg en vert..."
+  }
+}

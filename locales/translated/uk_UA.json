@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Інструменти облікових даних",
+    "description": "Генеруйте SSH-ключі, перевіряйте їх та копіюйте відкритий ключ на хост."
+  },
+  "permissions": {
+    "use": {
+      "title": "Використовувати інструменти облікових даних",
+      "description": "Генерувати та перевіряти SSH-ключі, а також копіювати відкритий ключ на хост."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Генерувати пару ключів",
+    "generateKeyPairDescription": "Згенерувати нову пару ключів, приватний і відкритий ключі будуть заповнені автоматично.",
+    "keyPairGenerated": "Пару ключів {{label}} згенеровано",
+    "failedToGenerateKeyPair": "Не вдалося згенерувати пару ключів",
+    "generateLabel": "Генерувати {{label}}",
+    "generatingKey": "Генерування...",
+    "publicKeyGenerated": "Відкритий ключ згенеровано",
+    "failedToGeneratePublicKey": "Не вдалося отримати відкритий ключ",
+    "generateFromPrivateKey": "Згенерувати з приватного ключа"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Розгорнути ключ на хості",
+    "keyDeployedSuccess": "Ключ успішно розгорнуто",
+    "failedToDeployKey": "Не вдалося розгорнути ключ",
+    "deployDialogTitle": "Розгорнути SSH-ключ",
+    "deployingBtn": "Розгортання...",
+    "deployBtn": "Розгорнути",
+    "deployDialogDesc": "Розгорнути {{name}} у authorized_keys хоста.",
+    "targetHostLabel": "Цільовий хост",
+    "selectHostOption": "Оберіть хост..."
+  }
+}

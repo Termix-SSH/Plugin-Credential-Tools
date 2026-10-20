@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Εργαλεία Διαπιστευτηρίων",
+    "description": "Δημιουργία SSH κλειδιών, έλεγχος τους και αντιγραφή δημόσιου κλειδιού σε έναν υπολογιστή."
+  },
+  "permissions": {
+    "use": {
+      "title": "Χρήση εργαλείων διαπιστευτηρίων",
+      "description": "Δημιουργία και έλεγχος SSH κλειδιών και αντιγραφή δημόσιου κλειδιού σε έναν υπολογιστή."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Δημιουργία Ζεύγους Κλειδιών",
+    "generateKeyPairDescription": "Δημιουργία νέου ζεύγους κλειδιών, τόσο το ιδιωτικό όσο και το δημόσιο κλειδί θα συμπληρωθούν αυτόματα.",
+    "keyPairGenerated": "Το ζεύγος κλειδιών {{label}} δημιουργήθηκε",
+    "failedToGenerateKeyPair": "Αποτυχία δημιουργίας ζεύγους κλειδιών",
+    "generateLabel": "Δημιουργία {{label}}",
+    "generatingKey": "Δημιουργία...",
+    "publicKeyGenerated": "Το δημόσιο κλειδί δημιουργήθηκε",
+    "failedToGeneratePublicKey": "Αποτυχία εξαγωγής δημόσιου κλειδιού",
+    "generateFromPrivateKey": "Δημιουργία από Ιδιωτικό Κλειδί"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Εγκατάσταση κλειδιού σε υπολογιστή",
+    "keyDeployedSuccess": "Το κλειδί εγκαταστάθηκε με επιτυχία",
+    "failedToDeployKey": "Αποτυχία εγκατάστασης κλειδιού",
+    "deployDialogTitle": "Εγκατάσταση SSH Κλειδιού",
+    "deployingBtn": "Εγκατάσταση...",
+    "deployBtn": "Εγκατάσταση",
+    "deployDialogDesc": "Εγκατάσταση του {{name}} στο authorized_keys ενός υπολογιστή.",
+    "targetHostLabel": "Στόχος Υπολογιστής",
+    "selectHostOption": "Επιλέξτε έναν υπολογιστή..."
+  }
+}

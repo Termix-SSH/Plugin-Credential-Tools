@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Orodja za poverilnice",
+    "description": "Ustvarite SSH ključe, jih preverite in kopirajte javni ključ na gostitelja."
+  },
+  "permissions": {
+    "use": {
+      "title": "Uporaba orodij za poverilnice",
+      "description": "Ustvarjanje in preverjanje SSH ključev ter kopiranje javnega ključa na gostitelja."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Ustvari par ključev",
+    "generateKeyPairDescription": "Ustvari nov par ključev, tako zasebni kot javni ključ bosta samodejno izpolnjena.",
+    "keyPairGenerated": "Par ključev {{label}} je ustvarjen",
+    "failedToGenerateKeyPair": "Ustvarjanja para ključev ni bilo mogoče izvesti",
+    "generateLabel": "Ustvari {{label}}",
+    "generatingKey": "Ustvarjanje ...",
+    "publicKeyGenerated": "Javni ključ je bil ustvarjen",
+    "failedToGeneratePublicKey": "Ustvarjanje javnega ključa ni uspelo",
+    "generateFromPrivateKey": "Ustvari iz zasebnega ključa"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Namesti ključ na strežnik",
+    "keyDeployedSuccess": "Ključ je bil uspešno nameščen",
+    "failedToDeployKey": "Namestitev ključa ni uspela",
+    "deployDialogTitle": "Namesti SSH ključ",
+    "deployingBtn": "Nameščanje...",
+    "deployBtn": "Namesti",
+    "deployDialogDesc": "Namesti {{name}} v datoteko authorized_keys strežnika.",
+    "targetHostLabel": "Ciljni gostitelj",
+    "selectHostOption": "Izberite gostitelja..."
+  }
+}

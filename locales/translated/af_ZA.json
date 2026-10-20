@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Geloofsbriewe-hulpmiddels",
+    "description": "Genereer SSH-sleutels, kontroleer hulle en kopieer 'n openbare sleutel na 'n gasheer."
+  },
+  "permissions": {
+    "use": {
+      "title": "Geloofsbriewe-hulpmiddels gebruik",
+      "description": "Genereer en kontroleer SSH-sleutels en kopieer 'n openbare sleutel na 'n gasheer."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Genereer Sleutelpaar",
+    "generateKeyPairDescription": "Genereer 'n nuwe sleutelpaar, beide die privaat en openbare sleutels sal outomaties ingevul word.",
+    "keyPairGenerated": "{{label}} sleutelpaar gegenereer",
+    "failedToGenerateKeyPair": "Kon nie sleutelpaar genereer nie",
+    "generateLabel": "Genereer {{label}}",
+    "generatingKey": "Genereer...",
+    "publicKeyGenerated": "Openbare sleutel gegenereer",
+    "failedToGeneratePublicKey": "Kon nie openbare sleutel aflei nie",
+    "generateFromPrivateKey": "Genereer vanaf Privaat Sleutel"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Stel sleutel op gasheer op",
+    "keyDeployedSuccess": "Sleutel suksesvol opgestel",
+    "failedToDeployKey": "Kon nie sleutel opstel nie",
+    "deployDialogTitle": "Stel SSH-sleutel op",
+    "deployingBtn": "Stel tans op...",
+    "deployBtn": "Stel op",
+    "deployDialogDesc": "Stel {{name}} op in 'n gasheer se authorized_keys.",
+    "targetHostLabel": "Teikengasheer",
+    "selectHostOption": "Kies 'n gasheer..."
+  }
+}

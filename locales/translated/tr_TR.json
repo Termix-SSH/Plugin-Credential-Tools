@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Kimlik Bilgisi Araçları",
+    "description": "SSH anahtarları oluşturun, kontrol edin ve bir genel anahtarı bir ana bilgisayara kopyalayın."
+  },
+  "permissions": {
+    "use": {
+      "title": "Kimlik bilgisi araçlarını kullan",
+      "description": "SSH anahtarları oluşturun, kontrol edin ve bir genel anahtarı bir ana bilgisayara kopyalayın."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Anahtar Çifti Oluştur",
+    "generateKeyPairDescription": "Yeni bir anahtar çifti oluşturun, hem özel hem de genel anahtarlar otomatik olarak doldurulacaktır.",
+    "keyPairGenerated": "{{label}} anahtar çifti oluşturuldu",
+    "failedToGenerateKeyPair": "Anahtar çifti oluşturulamadı",
+    "generateLabel": "{{label}} oluştur",
+    "generatingKey": "Oluşturuluyor...",
+    "publicKeyGenerated": "Public anahtar oluşturuldu",
+    "failedToGeneratePublicKey": "Public anahtar türetilemedi",
+    "generateFromPrivateKey": "Private Anahtardan Oluştur"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Anahtarı sunucuya dağıt",
+    "keyDeployedSuccess": "Anahtar başarıyla dağıtıldı",
+    "failedToDeployKey": "Anahtar dağıtımı başarısız oldu",
+    "deployDialogTitle": "SSH Anahtarını Dağıt",
+    "deployingBtn": "Dağıtılıyor...",
+    "deployBtn": "Dağıt",
+    "deployDialogDesc": "{{name}} anahtarını bir sunucunun authorized_keys dosyasına dağıt.",
+    "targetHostLabel": "Hedef Sunucu",
+    "selectHostOption": "Bir sunucu seçin..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Alat Kredensial",
+    "description": "Buat kunci SSH, periksa, dan salin kunci publik ke host."
+  },
+  "permissions": {
+    "use": {
+      "title": "Gunakan alat kredensial",
+      "description": "Buat dan periksa kunci SSH serta salin kunci publik ke host."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Buat Pasangan Kunci",
+    "generateKeyPairDescription": "Buat pasangan kunci baru, kunci privat dan publik akan diisi secara otomatis.",
+    "keyPairGenerated": "Pasangan kunci {{label}} berhasil dibuat",
+    "failedToGenerateKeyPair": "Gagal membuat pasangan kunci",
+    "generateLabel": "Buat {{label}}",
+    "generatingKey": "Membuat...",
+    "publicKeyGenerated": "Kunci publik dibuat",
+    "failedToGeneratePublicKey": "Gagal menghasilkan kunci publik",
+    "generateFromPrivateKey": "Buat dari Kunci Pribadi"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Terapkan kunci ke host",
+    "keyDeployedSuccess": "Kunci berhasil diterapkan",
+    "failedToDeployKey": "Gagal menerapkan kunci",
+    "deployDialogTitle": "Terapkan Kunci SSH",
+    "deployingBtn": "Menerapkan...",
+    "deployBtn": "Terapkan",
+    "deployDialogDesc": "Terapkan {{name}} ke authorized_keys host.",
+    "targetHostLabel": "Host Target",
+    "selectHostOption": "Pilih host..."
+  }
+}

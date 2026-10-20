@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Piekļuves datu rīki",
+    "description": "Ģenerēt SSH atslēgas, pārbaudīt tās un kopēt publisko atslēgu uz resursdatoru."
+  },
+  "permissions": {
+    "use": {
+      "title": "Izmantot pieteikšanās datu rīkus",
+      "description": "Ģenerēt un pārbaudīt SSH atslēgas, kā arī kopēt publisko atslēgu uz serveri."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Ģenerēt atslēgu pāri",
+    "generateKeyPairDescription": "Ģenerēt jaunu atslēgu pāri, gan privātā, gan publiskā atslēga tiks aizpildīta automātiski.",
+    "keyPairGenerated": "Izveidots {{label}} atslēgu pāris",
+    "failedToGenerateKeyPair": "Neizdevās ģenerēt atslēgu pāri",
+    "generateLabel": "Ģenerēt {{label}}",
+    "generatingKey": "Ģenerē...",
+    "publicKeyGenerated": "Publiskais atslēga ģenerēta",
+    "failedToGeneratePublicKey": "Neizdevās iegūt publisko atslēgu",
+    "generateFromPrivateKey": "Ģenerēt no privātā atslēgas"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Izvietot atslēgu uz serveri",
+    "keyDeployedSuccess": "Atslēga veiksmīgi izvietota",
+    "failedToDeployKey": "Neizdevās izvietot atslēgu",
+    "deployDialogTitle": "Izvietot SSH atslēgu",
+    "deployingBtn": "Izvietojam...",
+    "deployBtn": "Izvietot",
+    "deployDialogDesc": "Ievietot {{name}} hosta authorized_keys failā.",
+    "targetHostLabel": "Mērķa resursdators",
+    "selectHostOption": "Izvēlieties resursdatoru..."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "plugin": {
+    "name": "Outils de gestion des identifiants",
+    "description": "Générer des clés SSH, les vérifier et copier une clé publique sur un hôte."
+  },
+  "permissions": {
+    "use": {
+      "title": "Utiliser les outils de gestion des identifiants",
+      "description": "Générer et vérifier des clés SSH, et copier une clé publique sur un hôte."
+    }
+  },
+  "hosts": {
+    "generateKeyPairTitle": "Générer une paire de clés",
+    "generateKeyPairDescription": "Générer une nouvelle paire de clés, les clés privée et publique seront remplies automatiquement.",
+    "keyPairGenerated": "Paire de clés {{label}} générée",
+    "failedToGenerateKeyPair": "Échec de la génération de la paire de clés",
+    "generateLabel": "Générer {{label}}",
+    "generatingKey": "Génération en cours...",
+    "publicKeyGenerated": "Clé publique générée",
+    "failedToGeneratePublicKey": "Échec de la dérivation de la clé publique",
+    "generateFromPrivateKey": "Générer à partir de la clé privée"
+  },
+  "credentials": {
+    "deploySSHKeyTitle": "Déployer la clé sur un hôte",
+    "keyDeployedSuccess": "Clé déployée avec succès",
+    "failedToDeployKey": "Échec du déploiement de la clé",
+    "deployDialogTitle": "Déployer la clé SSH",
+    "deployingBtn": "Déploiement en cours...",
+    "deployBtn": "Déployer",
+    "deployDialogDesc": "Déployer {{name}} dans le fichier authorized_keys d'un hôte.",
+    "targetHostLabel": "Hôte cible",
+    "selectHostOption": "Sélectionner un hôte..."
+  }
+}
