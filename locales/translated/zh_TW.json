@@ -30,5 +30,14 @@
     "deployDialogDesc": "將 {{name}} 部署至主機的 authorized_keys。",
     "targetHostLabel": "目標主機",
     "selectHostOption": "選擇主機..."
+  },
+  "operations": {
+    "list": {
+      "title": "列出 SSH 金鑰"
+    },
+    "deploy": {
+      "title": "將 SSH 金鑰新增至主機"
+    },
+    "key": "SSH 金鑰"
   }
 }

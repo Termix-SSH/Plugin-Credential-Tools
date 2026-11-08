@@ -30,5 +30,14 @@
     "deployDialogDesc": "{{name}}을(를) 호스트의 authorized_keys에 배포합니다.",
     "targetHostLabel": "대상 호스트",
     "selectHostOption": "호스트 선택..."
+  },
+  "operations": {
+    "list": {
+      "title": "SSH 키 목록"
+    },
+    "deploy": {
+      "title": "호스트에 SSH 키 추가"
+    },
+    "key": "SSH 키"
   }
 }

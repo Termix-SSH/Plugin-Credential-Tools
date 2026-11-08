@@ -30,5 +30,14 @@
     "deployDialogDesc": "Εγκατάσταση του {{name}} στο authorized_keys ενός υπολογιστή.",
     "targetHostLabel": "Στόχος Υπολογιστής",
     "selectHostOption": "Επιλέξτε έναν υπολογιστή..."
+  },
+  "operations": {
+    "list": {
+      "title": "Αναφορά SSH κλειδιών"
+    },
+    "deploy": {
+      "title": "Προσθήκη SSH κλειδιού σε host"
+    },
+    "key": "SSH κλειδί"
   }
 }

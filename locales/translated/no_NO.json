@@ -30,5 +30,14 @@
     "deployDialogDesc": "Distribuer {{name}} til en verts authorized_keys.",
     "targetHostLabel": "Målvert",
     "selectHostOption": "Velg en vert..."
+  },
+  "operations": {
+    "list": {
+      "title": "List SSH-nøkler"
+    },
+    "deploy": {
+      "title": "Legg til SSH-nøkkel på vert"
+    },
+    "key": "SSH-nøkkel"
   }
 }

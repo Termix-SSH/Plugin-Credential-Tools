@@ -30,5 +30,14 @@
     "deployDialogDesc": "ติดตั้ง {{name}} ไปยังไฟล์ authorized_keys ของโฮสต์",
     "targetHostLabel": "โฮสต์เป้าหมาย",
     "selectHostOption": "เลือกโฮสต์..."
+  },
+  "operations": {
+    "list": {
+      "title": "แสดงรายการคีย์ SSH"
+    },
+    "deploy": {
+      "title": "เพิ่มคีย์ SSH ลงในโฮสต์"
+    },
+    "key": "คีย์ SSH"
   }
 }

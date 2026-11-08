@@ -30,5 +30,14 @@
     "deployDialogDesc": "{{name}} को किसी होस्ट के authorized_keys में तैनात करें।",
     "targetHostLabel": "लक्ष्य होस्ट",
     "selectHostOption": "एक होस्ट चुनें..."
+  },
+  "operations": {
+    "list": {
+      "title": "SSH कुंजियों की सूची"
+    },
+    "deploy": {
+      "title": "होस्ट में SSH कुंजी जोड़ें"
+    },
+    "key": "SSH कुंजी"
   }
 }

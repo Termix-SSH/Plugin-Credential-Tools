@@ -30,5 +30,14 @@
     "deployDialogDesc": "Laksanakan {{name}} ke authorized_keys hos.",
     "targetHostLabel": "Hos Sasaran",
     "selectHostOption": "Pilih hos..."
+  },
+  "operations": {
+    "list": {
+      "title": "Senaraikan kunci SSH"
+    },
+    "deploy": {
+      "title": "Tambah kunci SSH ke hos"
+    },
+    "key": "Kunci SSH"
   }
 }

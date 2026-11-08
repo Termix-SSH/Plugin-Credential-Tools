@@ -1,7 +1,7 @@
 {
   "id": "credential-tools",
   "name": "Credential Tools",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Generate SSH keys, check them and copy a public key to a host.",
   "author": {
     "name": "Termix"
@@ -20,7 +20,7 @@
   ],
   "env": [],
   "engine": {
-    "termix": ">=26.10.3",
+    "termix": ">=26.11.1-0",
     "api": "^1.5"
   },
   "capabilities": [
@@ -29,7 +29,8 @@
     "credentials:use",
     "credentials:read",
     "ssh:connect",
-    "ui:surface"
+    "ui:surface",
+    "operations:provide"
   ],
   "locales": "locales",
   "platforms": ["linux", "win32", "darwin"],
@@ -47,6 +48,42 @@
         {
           "from": "/credentials",
           "to": "/credentials"
+        }
+      ]
+    },
+    "operations": {
+      "actions": [
+        {
+          "id": "credential-tools.list-keys",
+          "titleKey": "operations.list.title",
+          "scope": "server",
+          "risk": "read",
+          "permission": "use",
+          "surfaces": {
+            "assistant": true,
+            "mcp": true,
+            "palette": false
+          }
+        },
+        {
+          "id": "credential-tools.deploy-key",
+          "titleKey": "operations.deploy.title",
+          "icon": "KeyRound",
+          "scope": "host",
+          "risk": "change",
+          "permission": "use",
+          "hostAccess": "manage",
+          "dryRun": "describe",
+          "idempotent": true,
+          "inputs": [
+            {
+              "key": "key",
+              "type": "string",
+              "labelKey": "operations.key",
+              "required": true,
+              "optionsFrom": "credential-tools.list-keys"
+            }
+          ]
         }
       ]
     }

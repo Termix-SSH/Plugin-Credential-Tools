@@ -30,5 +30,14 @@
     "deployDialogDesc": "Desplega {{name}} a l'arxiu authorized_keys d'un host.",
     "targetHostLabel": "Host de destí",
     "selectHostOption": "Selecciona un host..."
+  },
+  "operations": {
+    "list": {
+      "title": "Llista les claus SSH"
+    },
+    "deploy": {
+      "title": "Afegeix la clau SSH a l'amfitrió"
+    },
+    "key": "Claus SSH"
   }
 }

@@ -30,5 +30,14 @@
     "deployDialogDesc": "نشر {{name}} إلى ملف authorized_keys للمضيف.",
     "targetHostLabel": "المضيف المستهدف",
     "selectHostOption": "اختر مضيفًا..."
+  },
+  "operations": {
+    "list": {
+      "title": "قائمة مفاتيح SSH"
+    },
+    "deploy": {
+      "title": "إضافة مفتاح SSH إلى المضيف"
+    },
+    "key": "مفتاح SSH"
   }
 }

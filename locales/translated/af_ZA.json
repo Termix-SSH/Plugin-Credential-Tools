@@ -30,5 +30,14 @@
     "deployDialogDesc": "Stel {{name}} op in 'n gasheer se authorized_keys.",
     "targetHostLabel": "Teikengasheer",
     "selectHostOption": "Kies 'n gasheer..."
+  },
+  "operations": {
+    "list": {
+      "title": "Lys SSH-sleutels"
+    },
+    "deploy": {
+      "title": "Voeg SSH-sleutel by aan gasheer"
+    },
+    "key": "SSH-sleutel"
   }
 }

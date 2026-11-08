@@ -30,5 +30,14 @@
     "deployDialogDesc": "Déployer {{name}} dans le fichier authorized_keys d'un hôte.",
     "targetHostLabel": "Hôte cible",
     "selectHostOption": "Sélectionner un hôte..."
+  },
+  "operations": {
+    "list": {
+      "title": "Lister les clés SSH"
+    },
+    "deploy": {
+      "title": "Ajouter une clé SSH à l'hôte"
+    },
+    "key": "Clé SSH"
   }
 }

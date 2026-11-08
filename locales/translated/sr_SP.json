@@ -30,5 +30,14 @@
     "deployDialogDesc": "Деплојујте {{name}} у authorized_keys датотеку хоста.",
     "targetHostLabel": "Циљни хост",
     "selectHostOption": "Изаберите хост..."
+  },
+  "operations": {
+    "list": {
+      "title": "Листа SSH кључева"
+    },
+    "deploy": {
+      "title": "Додај SSH кључ на хост"
+    },
+    "key": "SSH кључ"
   }
 }

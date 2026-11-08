@@ -30,5 +30,14 @@
     "deployDialogDesc": "Разположете {{name}} в authorized_keys на хост.",
     "targetHostLabel": "Целеви хост",
     "selectHostOption": "Изберете хост..."
+  },
+  "operations": {
+    "list": {
+      "title": "Показване на SSH ключове"
+    },
+    "deploy": {
+      "title": "Добавяне на SSH ключ към хост"
+    },
+    "key": "SSH ключ"
   }
 }

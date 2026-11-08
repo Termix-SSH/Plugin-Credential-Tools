@@ -30,5 +30,14 @@
     "deployDialogDesc": "将 {{name}} 部署到主机的 authorized_keys。",
     "targetHostLabel": "目标主机",
     "selectHostOption": "选择主机..."
+  },
+  "operations": {
+    "list": {
+      "title": "列出 SSH 密钥"
+    },
+    "deploy": {
+      "title": "将 SSH 密钥添加到主机"
+    },
+    "key": "SSH 密钥"
   }
 }

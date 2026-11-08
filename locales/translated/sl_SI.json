@@ -30,5 +30,14 @@
     "deployDialogDesc": "Namesti {{name}} v datoteko authorized_keys strežnika.",
     "targetHostLabel": "Ciljni gostitelj",
     "selectHostOption": "Izberite gostitelja..."
+  },
+  "operations": {
+    "list": {
+      "title": "Seznam SSH ključev"
+    },
+    "deploy": {
+      "title": "Dodaj SSH ključ gostitelju"
+    },
+    "key": "SSH ključ"
   }
 }

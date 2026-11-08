@@ -20,5 +20,8 @@
   "credentials.deployBtn": "fb4192a0d1e9",
   "credentials.deployDialogDesc": "05bd5d7685b6",
   "credentials.targetHostLabel": "8d98cdc312d4",
-  "credentials.selectHostOption": "8c64dec3063b"
+  "credentials.selectHostOption": "8c64dec3063b",
+  "operations.list.title": "aa4c0a9a8bf0",
+  "operations.deploy.title": "ca65b2855915",
+  "operations.key": "aab2dc756143"
 }

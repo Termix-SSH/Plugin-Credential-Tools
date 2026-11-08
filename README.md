@@ -4,7 +4,7 @@
 
 <h1>Credential Tools</h1>
 
-<p>Generate SSH keys, check them and deploy a public key to a host</p>
+<p>Generate SSH keys, check them and copy a public key to a host</p>
 
 <!-- VIDEO:START -->
 
@@ -30,6 +30,7 @@ Read the [docs](https://docs.termix.site/plugins/credential-tools) to set it up 
 - Detect a key's type and get its public key
 - Check that a public and private key match
 - Deploy a saved key to a host's authorized keys
+- Add a key to many hosts at once with a rollout in Operations Center
 
 <br />
 

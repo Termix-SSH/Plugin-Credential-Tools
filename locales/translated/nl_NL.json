@@ -30,5 +30,14 @@
     "deployDialogDesc": "Implementeer {{name}} in de authorized_keys van een host.",
     "targetHostLabel": "Doelhost",
     "selectHostOption": "Selecteer een host..."
+  },
+  "operations": {
+    "list": {
+      "title": "SSH-sleutels weergeven"
+    },
+    "deploy": {
+      "title": "SSH-sleutel aan host toevoegen"
+    },
+    "key": "SSH-sleutel"
   }
 }

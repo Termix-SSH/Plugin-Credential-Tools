@@ -37,7 +37,7 @@ function keyLine(publicKey: string): string {
   return publicKey.trim();
 }
 
-async function deployKey(
+export async function deployKey(
   ctx: PluginContext,
   hostId: number,
   publicKey: string,

@@ -30,5 +30,14 @@
     "deployDialogDesc": "A(z) {{name}} telepítése a host authorized_keys fájljába.",
     "targetHostLabel": "Célhost",
     "selectHostOption": "Válasszon egy hostot..."
+  },
+  "operations": {
+    "list": {
+      "title": "SSH-kulcsok listázása"
+    },
+    "deploy": {
+      "title": "SSH-kulcs hozzáadása a gazdagéphez"
+    },
+    "key": "SSH-kulcs"
   }
 }

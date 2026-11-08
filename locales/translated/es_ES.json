@@ -30,5 +30,14 @@
     "deployDialogDesc": "Desplegar {{name}} en authorized_keys de un host.",
     "targetHostLabel": "Host de destino",
     "selectHostOption": "Selecciona un host..."
+  },
+  "operations": {
+    "list": {
+      "title": "Listar claves SSH"
+    },
+    "deploy": {
+      "title": "Añadir clave SSH al host"
+    },
+    "key": "Clave SSH"
   }
 }

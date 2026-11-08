@@ -30,5 +30,14 @@
     "deployDialogDesc": "Nasadiť {{name}} do súboru authorized_keys na hostiteľovi.",
     "targetHostLabel": "Cieľový hostiteľ",
     "selectHostOption": "Vyberte hostiteľa..."
+  },
+  "operations": {
+    "list": {
+      "title": "Zoznam SSH kľúčov"
+    },
+    "deploy": {
+      "title": "Pridať SSH kľúč na hostiteľa"
+    },
+    "key": "SSH kľúč"
   }
 }
