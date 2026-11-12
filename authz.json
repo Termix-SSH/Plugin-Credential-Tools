@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Termix-SSH/Termix/main/scripts/authz/authz.schema.json",
+  "seed": [],
+  "routes": {
+    "POST /plugin-api/credential-tools/credentials/:id/deploy-to-host": {
+      "access": "user",
+      "permission": "credential-tools.use",
+      "resource": {
+        "kind": "own",
+        "fixture": "credential-tools.credentials"
+      },
+      "params": {
+        "id": "=authz-none"
+      },
+      "destructive": true,
+      "allowed": "any",
+      "note": "No credentials in the test data (covered by the core credential routes); only session, permission and unknown id refusals are checked",
+      "body": {
+        "targetHostId": "{{host}}"
+      }
+    },
+    "POST /plugin-api/credential-tools/credentials/detect-key-type": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/credentials/detect-public-key-type": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/credentials/generate-key-pair": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/credentials/generate-public-key": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/credentials/validate-key-pair": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/detect-key-type": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/detect-public-key-type": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/generate-key-pair": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/generate-public-key": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    },
+    "POST /plugin-api/credential-tools/validate-key-pair": {
+      "access": "user",
+      "permission": "credential-tools.use"
+    }
+  }
+}
