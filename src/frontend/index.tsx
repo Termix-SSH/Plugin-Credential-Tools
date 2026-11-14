@@ -6,17 +6,14 @@ import {
   type ReactNode,
 } from "react";
 import { Upload } from "lucide-react";
-import {
-  useTranslation,
-  type TermixApp,
-} from "@termix-ssh/plugin-sdk/frontend";
+import type { TermixApp } from "@termix-ssh/plugin-sdk/frontend";
 import { DeployDialog, type DeployTarget } from "./DeployDialog";
 import { KeyGenerator } from "./KeyGenerator";
 import { PublicKeyDeriver } from "./PublicKeyDeriver";
 
 export function activate(app: TermixApp): void {
-  // The row button and the dialog live in different places in the sidebar;
-  // they talk through this.
+  // The row button runs an action and the dialog is an overlay, both in the
+  // background frame, so they share this.
   // Components other surfaces render must hide themselves from users who
   // may not use the plugin.
   function useAllowed(): boolean {
@@ -59,30 +56,6 @@ export function activate(app: TermixApp): void {
     );
   }
 
-  function DeployButton({
-    credential,
-    buttonClassName,
-  }: {
-    credential: DeployTarget;
-    buttonClassName?: string;
-  }) {
-    const { t } = useTranslation();
-    return (
-      <Gate>
-        <button
-          title={t("credentials.deploySSHKeyTitle")}
-          onClick={(event) => {
-            event.stopPropagation();
-            openDeploy({ id: credential.id, name: credential.name });
-          }}
-          className={buttonClassName}
-        >
-          <Upload className="size-3.5" />
-        </button>
-      </Gate>
-    );
-  }
-
   app.registerComponent("credentials.keyGenerator", ((
     props: Omit<ComponentProps<typeof KeyGenerator>, "api">,
   ) => (
@@ -98,18 +71,26 @@ export function activate(app: TermixApp): void {
     </Gate>
   )) as ComponentType<Record<string, unknown>>);
 
-  app.registerSlotContribution("credentials.panel", {
-    actionId: "credential-tools.panel",
+  app.registerSlotContribution("shell.overlay", {
+    actionId: "credential-tools.deployDialog",
     titleKey: "credentials.deployDialogTitle",
     kind: "component",
     component: DeployHost as ComponentType<Record<string, unknown>>,
   });
+  // A plain button on each key row: no component, so no frame per row.
+  app.registerAction(
+    "credential-tools.deploy",
+    (target: DeployTarget) => {
+      if (target && target.id !== undefined) {
+        openDeploy({ id: target.id, name: target.name });
+      }
+    },
+    { permission: "use" },
+  );
   app.registerSlotContribution("credentials.rowActions", {
     actionId: "credential-tools.deploy",
     titleKey: "credentials.deploySSHKeyTitle",
-    kind: "component",
-    component: DeployButton as unknown as ComponentType<
-      Record<string, unknown>
-    >,
+    icon: Upload,
+    kind: "button",
   });
 }
