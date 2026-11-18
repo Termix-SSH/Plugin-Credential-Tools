@@ -108,7 +108,7 @@ export function DeployDialog({
           {t("credentials.targetHostLabel")}
         </label>
         <Select2
-          className="flex h-9 w-full border border-border bg-background px-3 py-1 text-xs outline-none focus:ring-1 focus:ring-ring"
+          className="flex h-8 w-full border border-border bg-(--field) px-3 py-1 text-xs outline-none focus:ring-1 focus:ring-ring"
           value={hostId}
           onChange={(e) => setHostId(e.target.value)}
         >

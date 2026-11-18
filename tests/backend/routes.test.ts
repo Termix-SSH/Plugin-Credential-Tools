@@ -23,6 +23,7 @@ let port: number;
 async function start(permissions?: string[]) {
   let router: Router | null = null;
   mock = createMockCtx({
+    sandbox: true,
     pluginId: manifest.id,
     manifest,
     capabilities: manifest.capabilities,
